@@ -81,6 +81,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/enuma/proprietary/vendor/etc/camera/sr_params.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sr_params.xml \
     vendor/xiaomi/enuma/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/xiaomi/enuma/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/default.lm:$(TARGET_COPY_OUT_VENDOR)/etc/default.lm \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/display_settings.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_settings.xml \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/displayconfig/display_id_4630946481717202305.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946481717202305.xml \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/displayconfig/display_id_4630946545580055169.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946545580055169.xml \
     vendor/xiaomi/enuma/proprietary/vendor/etc/init/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.batterysecret.rc \
     vendor/xiaomi/enuma/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/xiaomi/enuma/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
@@ -88,6 +92,26 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/enuma/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/xiaomi/enuma/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/enuma/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/ltm_config_xiaomi_35_02_0b_video_mode_dual_dsi_cphy_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_xiaomi_35_02_0b_video_mode_dual_dsi_cphy_panel.xml \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/ltm_config_xiaomi_42_02_0a_video_mode_dual_dsi_cphy_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_xiaomi_42_02_0a_video_mode_dual_dsi_cphy_panel.xml \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/mdss_dsi_k81_35_02_0b_dual_cphy_video_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_k81_35_02_0b_dual_cphy_video_mi.xml \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/mdss_dsi_k81_42_02_0a_dual_cphy_video_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_k81_42_02_0a_dual_cphy_video_mi.xml \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLutInfo.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLutInfo.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_0.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_0.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_1.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_10.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_11.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_12.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_13.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_14.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_2.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_3.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_4.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_5.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_6.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_7.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_8.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_9.txt \
     vendor/xiaomi/enuma/proprietary/vendor/etc/qdcm_calib_data_xiaomi_35_02_0b_video_mode_dual_dsi_cphy_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_35_02_0b_video_mode_dual_dsi_cphy_panel.xml \
     vendor/xiaomi/enuma/proprietary/vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dual_dsi_cphy_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dual_dsi_cphy_panel.xml \
     vendor/xiaomi/enuma/proprietary/vendor/etc/sensors/calibratedCheck.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/calibratedCheck.json \
@@ -148,6 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/enuma/proprietary/vendor/etc/thermal-tgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-tgame.conf \
     vendor/xiaomi/enuma/proprietary/vendor/etc/thermal-video.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-video.conf \
     vendor/xiaomi/enuma/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/tunings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/tunings.txt \
     vendor/xiaomi/enuma/proprietary/vendor/firmware/BLH-cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/BLH-cs35l41-dsp1-spk-cali.bin \
     vendor/xiaomi/enuma/proprietary/vendor/firmware/BLH-cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/BLH-cs35l41-dsp1-spk-prot.bin \
     vendor/xiaomi/enuma/proprietary/vendor/firmware/BLH-music.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/BLH-music.txt \
