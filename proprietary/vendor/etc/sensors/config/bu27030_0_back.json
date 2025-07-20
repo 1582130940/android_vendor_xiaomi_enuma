@@ -1,7 +1,7 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Dragon", "Surf","ALIOTH"],
+    "hw_platform": ["MTP", "Dragon", "Surf","ENUMA"],
     "soc_id": ["291", "246", "305", "341", "356", "400"]
   },
   "bu27030_back":{
