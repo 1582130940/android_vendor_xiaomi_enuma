@@ -328,7 +328,6 @@ PRODUCT_PACKAGES += \
     fingerprint.goodix.default \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
     libAF \
-    libI420colorconvert \
     libSNPE \
     lib_sr_models \
     libalAILDC \
