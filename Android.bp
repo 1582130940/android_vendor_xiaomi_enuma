@@ -5373,6 +5373,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmiai_portraitsupernight.so",
             ],
             shared_libs: [
+                "libc++_shared",
                 "libm",
                 "liblog",
                 "libz",
@@ -5384,7 +5385,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
