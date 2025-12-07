@@ -383,8 +383,6 @@ PRODUCT_PACKAGES += \
     libgf_ca \
     libgf_hal \
     libgoodixhwfingerprint \
-    libhdrdynamic \
-    libhdrdynamicootf \
     libhta \
     libipebpsstriping \
     libmi_supernight_raw \
