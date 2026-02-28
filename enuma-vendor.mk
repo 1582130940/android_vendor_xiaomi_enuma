@@ -112,6 +112,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_7.txt \
     vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_8.txt \
     vendor/xiaomi/enuma/proprietary/vendor/etc/miLut_9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_9.txt \
+    vendor/xiaomi/enuma/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/enuma/proprietary/vendor/etc/qdcm_calib_data_xiaomi_35_02_0b_video_mode_dual_dsi_cphy_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_35_02_0b_video_mode_dual_dsi_cphy_panel.xml \
     vendor/xiaomi/enuma/proprietary/vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dual_dsi_cphy_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dual_dsi_cphy_panel.xml \
     vendor/xiaomi/enuma/proprietary/vendor/etc/sensors/calibratedCheck.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/calibratedCheck.json \
